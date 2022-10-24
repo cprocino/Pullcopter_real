@@ -1,23 +1,23 @@
 # CPyProjectTemplate
-for this project we just needed to make a led blink using python
-this project was very simple as it wwas the first project of the year so all we needed was the arduino and the computer
-here is the code i used:
-import board
-import neopixel
-import time
+This on we worked in pairs to creat a small helecotper toy in cad, it work by pulling of a "key" in order to get the "copter" part to spin and create lift.
+this was not all to difficult as we were givin each step in order, the difficult part was working together with another person, this was not a problem for me asjosh bleakley worked well together.
+###parts
+here is the "key":
+![Screenshot 2022-10-24 153014](https://user-images.githubusercontent.com/71406784/197609850-1afa6c1d-f26d-4d49-b20f-bed6d7c2673e.png)
+![Screenshot 2022-10-24 153031](https://user-images.githubusercontent.com/71406784/197609896-90f3158c-ab18-4288-98d7-b177abeda48c.png)
 
-dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
-dot.brightness = 0.5 
+here is the base(top and bottom):
+![Screenshot 2022-10-24 153224](https://user-images.githubusercontent.com/71406784/197610294-f32654e8-0422-47ef-afe3-52a00e26f35f.png)
+![Screenshot 2022-10-24 153251](https://user-images.githubusercontent.com/71406784/197610302-5a8df241-ce2c-4501-be90-4502de38095f.png)
+![Screenshot 2022-10-24 153316](https://user-images.githubusercontent.com/71406784/197610313-4237c5ad-8640-4bdb-a083-4b2d467ccc0d.png)
 
+here is the "spinner":
+![Screenshot 2022-10-24 153434](https://user-images.githubusercontent.com/71406784/197610542-36d5889b-9dc4-4c9f-a756-8d67b2453d81.png)
 
-while True:
-    b=25
-    g=0
-    r=25
-    dot.fill((b,g, r))
-    time.sleep(1)
-    dot.fill((0,0,0))
-    time.sleep(1)
-    print("Make it green")
+here is the prop:
+![Screenshot 2022-10-24 153456](https://user-images.githubusercontent.com/71406784/197610609-fc50d5fe-0636-4c2e-8918-b0d22866d70c.png)
+###complete
 
-I didnt have any real problems this project, just had to set up all the accounts and downloads.
+![Screenshot 2022-10-24 153804](https://user-images.githubusercontent.com/71406784/197611040-2abb28bc-5a14-4cdd-9a82-80036e79d458.png)
+this wasnt to hard because it wasn't a ton of work of especially difficult. 
+here is the document we worked on:https://cvilleschools.onshape.com/documents/c21ea5d854d718a86e6eb309/w/f28e1c984dc3fe65682f78f2/e/60f084a7ede173a9bd13a529
